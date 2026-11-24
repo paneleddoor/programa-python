@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Universidad Nacional Abierta y a Distancia - UNAD
 Curso: Fundamentos de Programación (213022)
@@ -21,10 +20,10 @@ Descripción:
 # Constantes: umbrales de la lógica de negocio
 # (si la empresa cambia las reglas, solo se modifican aquí)
 # ---------------------------------------------------------------------
-DURACION_MIN_ALTO = 180   # Alto: duración mayor a 180 segundos
-CLICS_MIN_ALTO = 8        # Alto: más de 8 clics
-DURACION_MAX_BAJO = 60    # Bajo: duración menor a 60 segundos
-CLICS_MAX_BAJO = 3        # Bajo: menos de 3 clics
+DURACION_MIN_ALTO = 180   
+CLICS_MIN_ALTO = 8        
+DURACION_MAX_BAJO = 60    
+CLICS_MAX_BAJO = 3        
 
 
 # ---------------------------------------------------------------------
@@ -32,13 +31,13 @@ CLICS_MAX_BAJO = 3        # Bajo: menos de 3 clics
 # Columna 0 = ID del cliente, columna 1 = duración, columna 2 = clics
 # ---------------------------------------------------------------------
 sesiones = [
-    ["CLI-001", 245, 12],   # sesión larga y con muchos clics
-    ["CLI-002", 45, 10],    # muy corta, aunque tenga muchos clics
-    ["CLI-003", 120, 5],    # valores intermedios
-    ["CLI-004", 200, 2],    # larga, pero casi sin clics
-    ["CLI-005", 190, 8],    # caso límite: 8 clics no es "más de 8"
-    ["CLI-006", 310, 15],   # sesión muy activa
-    ["CLI-007", 60, 3],     # caso límite: 60 s y 3 clics no son "Bajo"
+    ["CLI-001", 245, 12],   
+    ["CLI-002", 45, 10],    
+    ["CLI-003", 120, 5],   
+    ["CLI-004", 200, 2],    
+    ["CLI-005", 190, 8],   
+    ["CLI-006", 310, 15],   
+    ["CLI-007", 60, 3],     
 ]
 
 
